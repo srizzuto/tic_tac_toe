@@ -21,7 +21,12 @@ Go to https://github.com/srizzuto/tic_tac_toe/
 
 To run the rspec tests locally :
 
-- On terminal <code>rspec ./spec/tic_tac_toe_spec.rb</code> 
+1) If you want a specific block:
+    - On terminal <code>rspec ./spec/board_spec.rb</code>, <code>rspec ./spec/game_spec.rb</code> or <code>rspec ./spec/player_spec.rb</code>
+
+2) If you want to execute the whole program
+    - On terminal <code>ruby ./run_all_spec.rb</code>
+
 
 
 ## Instructions
