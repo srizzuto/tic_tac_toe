@@ -4,11 +4,11 @@ require_relative '../lib/player'
 
 module TicTacToe
   describe Game do
-    let(:mockPlayer) { double(player1: 'Safa', player2: 'Moises') }
+    let(:mockPlayer) { double(player1: 'Player1', player2: 'Player2') }
     let(:game) { Game.new(mockPlayer) }
     describe '.initialize' do
       it 'return the name of the players' do
-        expect(game.player.player1).to eq 'Safa'
+        expect(game.player.player1).to eq 'Player1'
       end
       it 'raise error if there is no arguments' do
         expect { Game.new }.to raise_error
@@ -78,13 +78,13 @@ module TicTacToe
   describe Player do
     describe '#initialize' do
       it 'save two plyers' do
-        player = Player.new('Safa', 'Moises')
-        expect(player.player1).to eq 'Safa'
+        player = Player.new('Player1', 'Player2')
+        expect(player.player1).to eq 'Player1'
       end
 
       it 'save two plyers' do
-        player = Player.new('Safa', 'Moises')
-        expect(player.player2).to eq 'Moises'
+        player = Player.new('Player1', 'Player2')
+        expect(player.player2).to eq 'Player2'
       end
 
       it 'thrown error if no arguments' do
