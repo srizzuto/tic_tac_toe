@@ -17,6 +17,13 @@ Go to https://github.com/srizzuto/tic_tac_toe/
 4. Push your branch up to your forked repository.
 5. Open a Pull Request with a detailed description of the development branch of the original project for a review.
 
+## Running tests
+
+To run the rspec tests locally :
+
+- On terminal </code>rspec ./spec/game_spec.rb</code> 
+
+
 ## Instructions
 
 1) Open your terminal:
