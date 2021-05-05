@@ -21,7 +21,7 @@ Go to https://github.com/srizzuto/tic_tac_toe/
 
 To run the rspec tests locally :
 
-- On terminal </code>rspec ./spec/tic_tac_toe_spec.rb</code> 
+- On terminal <code>rspec ./spec/tic_tac_toe_spec.rb</code> 
 
 
 ## Instructions
